@@ -1,3 +1,17 @@
-print out description of the program
-ask for the player's name
-...
+Ask for name
+Tell them what the program does
+
+Import random
+import java.util.Random;
+
+declare the random generator class
+
+Set up a loop that prints 10 rows of 6 numbers
+Each number is between 0 and 99
+They can be repeated 
+One loop for 10 lines
+And then a loop inside of that for 6 numbers
+
+Print out “good luck name”
+Print out prize with a dollar sign
+
