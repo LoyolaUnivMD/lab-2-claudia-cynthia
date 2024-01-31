@@ -1,12 +1,14 @@
 // Programmers: Claudia and Cynthia
 // Course:  CS 212
-// Due Date:
-// Lab Assignment:
-// Problem Statement:
-// Data In:
-// Data Out:
-// Credits: [Is your code based on an example in the book, in class, or something else?
-//            Reminder: you should never take code from the Internet or another person
+// Due Date: 02/03/23
+// Lab Assignment: Lab 2
+// Problem Statement: To create a lottery generator that'll print out the lottery tickets to the user, and the estimated prize.
+// Data In: User's name
+// Data Out: The lottery tickets number, your name with a good luck, and the estimated prize.
+// Credits: Note #4 and Note #5
+
+
+
 //import the Scanner and the random
 import java.util.Scanner;
 import java.util.Random;
