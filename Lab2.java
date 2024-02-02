@@ -29,6 +29,10 @@ class Lab2 {
 
         String customerName = input.nextLine();
 
+        //ask for how much money to play
+        System.out.println("How much money do you want to play?");
+
+        double gamble = input.nextInt();
 
         System.out.println("CS 212 - Lab 2");
         System.out.println("This program generates 10 lottery tickets.");
@@ -48,6 +52,12 @@ class Lab2 {
                 // then print a space between that and the next number
                 System.out.print(" ");
 
+                
+                if (rand_int == 3 || rand_int == 5 || rand_int == 16
+                || rand_int == 58 || rand_int == 59 || rand_int == 11){
+                
+                gamble = Math.pow(gamble,1.75);}
+
 
             }
 
@@ -56,7 +66,7 @@ class Lab2 {
         // printing final messages to user
         System.out.println("\n" + "Good luck " + customerName + "!");
         System.out.println("Estimated Jackpot:" + "\n" + "$" + prize);
-
+        System.out.println(gamble);
 
     }
 }
