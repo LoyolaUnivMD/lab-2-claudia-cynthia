@@ -17,8 +17,6 @@ class Lab2 {
         //Display program info.
         System.out.println("CS 212 - Lab 2");
         System.out.println("This program generates 10 lottery tickets.");
-        // initialize prize var
-        double prize = 0.0;
         // declare scanner
         Scanner input = new Scanner(System.in);
         //declare random number generator
